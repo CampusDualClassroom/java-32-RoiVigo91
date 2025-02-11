@@ -10,9 +10,7 @@ import java.io.PrintWriter;
 public class Exercise32 {
 
     public static void main(String[] args) {
-        String texto = generateStringToSave(null);
-
-        printToFile(texto);
+        printToFile(generateUserInputToSave());
     }
 
     public static String generateStringToSave(String string) {
